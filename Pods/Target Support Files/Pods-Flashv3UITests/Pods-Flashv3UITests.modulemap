@@ -1,0 +1,6 @@
+framework module Pods_Flashv3UITests {
+  umbrella header "Pods-Flashv3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

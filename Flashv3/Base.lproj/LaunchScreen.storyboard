@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flashSplash" translatesAutoresizingMaskIntoConstraints="NO" id="dnu-2X-YR8">
+                                <rect key="frame" x="-13" y="-12" width="401" height="696"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteBulb" translatesAutoresizingMaskIntoConstraints="NO" id="sen-cK-NkJ">
+                                <rect key="frame" x="133" y="263" width="108" height="141"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dnu-2X-YR8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-13" id="3ix-V5-VMh"/>
+                            <constraint firstAttribute="bottom" secondItem="dnu-2X-YR8" secondAttribute="bottom" constant="-17" id="F4B-8C-92O"/>
+                            <constraint firstItem="dnu-2X-YR8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-12" id="G82-2l-0lF"/>
+                            <constraint firstAttribute="trailing" secondItem="dnu-2X-YR8" secondAttribute="trailing" constant="-13" id="MLt-Ys-Zmn"/>
+                            <constraint firstItem="sen-cK-NkJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VSO-0G-mlW"/>
+                            <constraint firstItem="sen-cK-NkJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xcK-SU-3FS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flashSplash" width="399" height="685"/>
+        <image name="whiteBulb" width="108" height="141"/>
+    </resources>
+</document>
